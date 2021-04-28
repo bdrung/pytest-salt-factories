@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 13),
                python3-pytest (>= 6),
                python3-pytest-helpers-namespace (>= 2021.4.29),
                python3-pytest-tempdir (>= 2019.9.16),
-               python3-setuptools,
+               python3-setuptools (>= 50.3.2),
                python3-setuptools-scm (>= 3.4),
                python3-zmq,
                salt-common
