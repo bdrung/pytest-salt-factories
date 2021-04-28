@@ -1,0 +1,3 @@
+# salt-factories is just a helper tool and the package is primarily a library/plugin.
+application-in-library-section python usr/bin/salt-factories
+library-package-name-for-application usr/bin/salt-factories

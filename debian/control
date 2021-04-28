@@ -1,0 +1,37 @@
+Source: pytest-salt-factories
+Maintainer: Debian Salt Team <pkg-salt-team@alioth-lists.debian.net>
+Uploaders: Benjamin Drung <benjamin.drung@ionos.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               openssh-server,
+               python3,
+               python3-msgpack (>= 0.5.6),
+               python3-pip,
+               python3-psutil (>= 4.2.0),
+               python3-pytest (>= 6),
+               python3-pytest-tempdir (>= 2019.9.16),
+               python3-setuptools,
+               python3-setuptools-scm (>= 3.4),
+               python3-zmq,
+               salt-common
+Rules-Requires-Root: no
+Standards-Version: 4.5.1
+Homepage: https://github.com/saltstack/pytest-salt-factories
+Vcs-Browser: https://salsa.debian.org/salt-team/pytest-salt-factories
+Vcs-Git: https://salsa.debian.org/salt-team/pytest-salt-factories.git
+
+Package: python3-saltfactories
+Architecture: all
+Depends: python3-msgpack (>= 0.5.6),
+         python3-psutil (>= 4.2.0),
+         python3-pytest (>= 4.6.6),
+         python3-pytest-tempdir (>= 2019.9.16),
+         python3-zmq,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: PyTest plug-in for Salt daemons to be used in tests
+ This package provides a PyTest plug-in that allows one to use the Salt daemons
+ in tests. This plug-in is used in Salt's test suite. This is the successor of
+ python3-pytestsalt, this time focused on simplicity and extensibility.

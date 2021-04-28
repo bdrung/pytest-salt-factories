@@ -1,0 +1,45 @@
+pytest-salt-factories (0.121.1-1) experimental; urgency=medium
+
+  * New upstream release
+  * Drop setuptools-declarative-requirements (not present in Debian)
+  * Add new build dependency python3-setuptools-scm
+  * Update debian/copyright
+  * Apply 4 patches to fix functional and unit tests
+  * Run functional and unit tests during package build and with autopkgtest
+  * Add lintian override for salt-factories binary
+  * Bump Standards-Version to 4.5.1
+  * Update debian/watch to version 4
+  * Add upstream metadata information
+
+ -- Benjamin Drung <benjamin.drung@ionos.com>  Fri, 30 Apr 2021 18:23:19 +0200
+
+pytest-salt-factories (0.93.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Tue, 29 Sep 2020 10:29:14 +0200
+
+pytest-salt-factories (0.13.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Mon, 20 Jul 2020 16:36:02 +0200
+
+pytest-salt-factories (0.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop patches (all accepted upstream)
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Fri, 17 Jul 2020 13:43:54 +0200
+
+pytest-salt-factories (0.10.7-2) unstable; urgency=medium
+
+  * No-change upload to rebuild on buildd.
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Tue, 23 Jun 2020 16:02:27 +0200
+
+pytest-salt-factories (0.10.7-1) unstable; urgency=medium
+
+  * Initial version. (Closes: #963140)
+
+ -- Benjamin Drung <benjamin.drung@cloud.ionos.com>  Fri, 19 Jun 2020 13:34:50 +0200
