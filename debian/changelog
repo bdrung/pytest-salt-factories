@@ -1,3 +1,13 @@
+pytest-salt-factories (0.903.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Adjust pylint call to new src/ based layout
+  * Remove generated version.py on clean
+  * Require python3-pytest-helpers-namespace >= 2021.4.29
+  * Require python3-setuptools >= 50.3.2
+
+ -- Benjamin Drung <benjamin.drung@ionos.com>  Wed, 02 Jun 2021 12:57:42 +0200
+
 pytest-salt-factories (0.121.1-1) experimental; urgency=medium
 
   * New upstream release
